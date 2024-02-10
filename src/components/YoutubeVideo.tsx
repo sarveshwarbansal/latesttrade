@@ -41,8 +41,9 @@ const YoutubeVideo = ({ videoId }: any) => {
             <span className="font-[12px] sm:text-lg  font-bold">75%</span>{" "}
             <span className="text-sm font-light">Time Saving</span>
           </li>
-          <li className="p-2 sm:p-10">
-            <span className="font-[12px] sm:text-lg  font-bold">⭐ 4.5/5</span>{" "}
+          <li className="p-2 sm:p-10 flex flex-col  items-center sm:flex-row ">
+            <span className=" px-2">⭐ </span> 
+            <span className="font-[12px] sm:text-lg  font-bold">4.5/5</span>{" "}
           </li>
         </ol>
       </div>

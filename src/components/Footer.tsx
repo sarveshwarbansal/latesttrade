@@ -48,7 +48,7 @@ function Footer() {
 <div className="flex justify-between sm:justify-evenly sm:w-[50%]">
           {/* Second links section */}
           <div className="mb-6  ">
-            <h5 className="mb-2.5 font-bold  text-[#6F6C90]">Products</h5>
+            <h5 className="mb-2.5 font-bold  text-slate-300">Products</h5>
 
             <ul className="mb-6 list-none">
               <li className="text-[#6F6C90] py-2">
@@ -65,7 +65,7 @@ function Footer() {
 
           {/* Third links section */}
           <div className="mb-6 ">
-            <h5 className="mb-2.5 font-bold  text-[#6F6C90]">Company</h5>
+            <h5 className="mb-2.5 font-bold  text-slate-300">Company</h5>
 
             <ul className="mb-0 list-none">
               <li className="text-[#6F6C90] py-2">
@@ -81,8 +81,8 @@ function Footer() {
           </div>
           </div>
 
-          <div className="mb-6 w-full sm:w-[25%]">
-            <h5 className="mb-2.5 font-bold  text-[#6F6C90] ">
+          <div className="sm:mb-6 w-full sm:w-[25%]">
+            <h5 className="mb-2.5 font-bold  text-slate-300 ">
               Contact Us
             </h5>
 
@@ -112,7 +112,7 @@ function Footer() {
 
         {/* Copyright section */}
       </footer>
-      <div className="w-full bg-slate-950 px-8 pb-8 text-gray-300">
+      <div className="w-full bg-slate-950 px-8 pb-8 pt-2 text-gray-300">
         <p className="text-[#6F6C90] sm:float-left">
           Copyright © 2023 OptionX.trade
         </p>

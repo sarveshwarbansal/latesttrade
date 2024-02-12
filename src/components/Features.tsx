@@ -7,7 +7,7 @@ import feature4 from '../assets/feature4.svg'
 
 const Features = () => {
   return (
-    <div className="w-full h-auto bg-custom" id="features ">
+    <div className="w-full h-auto bg-custom" id="features">
       <h2 className="text-[36px] text-white font-[700] text-center py-10 px-4 ">Best in class Features to Trade Options  ⚡️</h2>
      
       <div className="flex flex-col sm:flex sm:flex-row items-center justify-evenly  p-4 ">
